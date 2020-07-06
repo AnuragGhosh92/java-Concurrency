@@ -4,7 +4,7 @@ public class SynchronizedKeyword {
 	
 	private static int counter = 0;
 	
-	/*
+	/**
 	 * synchronized keyword here creates a class-intrinsic lock, meaning that if a thread has acquired a lock
 	 * other threads cannot call <i>any</i> of the methods of that class.
 	 * i.e. equal to synchronized(SynchronizedKeyword.class)
